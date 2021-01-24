@@ -1,6 +1,75 @@
 #!
 import time
 
+# start -- 学习日期 2021-1-19
+
+# while 循环
+# 输出1-10
+i = 1
+while i <= 10:
+    print(i)
+    i += 1
+
+# 输出10-1
+j = 10
+while j >= 1:
+    print(j, end=" ")
+    j -= 1
+
+# 输出 1-100 的和
+k = 1
+k_sum = 0
+while k <= 100:
+    k_sum += k
+    print(k, end=" ")
+    k += 1
+print(k_sum)
+
+# 跳出死循环
+while True:
+    val = input('请输入一个值:')
+    print("内容:",val)
+    if  val == 'z':
+        break
+
+# for ...in循环
+
+# 遍历字符串
+for a in "qw":
+    print(a)
+
+for b in [1,2,3,4]:
+    print(b)
+
+for c in (5,6,7,8):
+    print(c)
+
+# m 取得是键值
+d = {'name':'zz','age':'11','sex':'woman'}
+for m in d:
+    print(m,':',d[m],end="\n")
+
+# 嵌套循环
+e = [('a','AAA'),('b','BBB'),('c','CCC')]
+for val1,val2 in e:
+    print(val1,'===>',val2)
+
+# 输出 0-4
+for n in range(5):
+    print(n)
+
+for u in range(1, 7):
+    print(u)
+
+# 5 每次加5
+for y in range(0,51,5):
+    print(y)
+
+# 10-1 每次减一
+for x in range(10,0,-1):
+    print(x)
+
+
 # 输入 10 - 1 的偶数
 
 for oushu in range(10, 1, -2):
