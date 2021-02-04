@@ -1,4 +1,4 @@
-#!
+#! /usr/bin/env python3
 import time
 
 # start -- 学习日期 2021-1-19

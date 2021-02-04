@@ -1,4 +1,4 @@
-#!
+#! /usr/bin/env python3
 # start -- 学习日期 2021-1-15
 
 # 输出hello word --单行注释
